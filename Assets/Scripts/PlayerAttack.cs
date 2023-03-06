@@ -17,6 +17,11 @@ public class PlayerAttack : MonoBehaviour
         _animator.SetTrigger("Attack");
     }
 
+    private void OnSlap(InputValue value)
+        {
+            _animator.SetTrigger("Slap");
+        }
+
     // Start is called before the first frame update
     void Start()
     {
