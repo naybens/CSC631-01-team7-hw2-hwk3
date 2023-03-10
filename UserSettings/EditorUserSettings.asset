@@ -9,6 +9,7 @@ EditorUserSettings:
       value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
       flags: 0
     RecentlyUsedSceneGuid-1:
+ team2BrendanBranch
       value: 5a02015456035d0a5e5b547a15260744434f197e7d2a22677f28486bbbb9363c
       flags: 0
     RecentlyUsedSceneGuid-2:
@@ -28,6 +29,9 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-7:
       value: 5006555f550251580f58092641745a44104f19727e707663287b4864bae16d3d
+
+      value: 510956565351595f5c565d7548720b44134f19782e2b7f367e7f4861e0b8606f
+ team2
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
