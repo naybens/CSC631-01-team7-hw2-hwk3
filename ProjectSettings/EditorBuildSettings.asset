@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/team2/Brendan/Main Scene.unity
+    guid: e121c46264bbec2439d37e84ef866f15
+  - enabled: 1
+    path: Assets/Scenes/team2/Brendan/Trans_Scene1.unity
+    guid: 2ee2c815c18d053479e36b5412eeb9cc
+  - enabled: 1
+    path: Assets/Scenes/team2/Brendan/Trans_Scene2.unity
+    guid: 37a9078cb6ed17e4f8a82803e2578a9e
   m_configObjects: {}
