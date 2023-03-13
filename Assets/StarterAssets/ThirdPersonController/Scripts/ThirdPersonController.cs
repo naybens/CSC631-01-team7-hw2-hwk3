@@ -97,6 +97,7 @@ namespace StarterAssets
         private int _animIDJump;
         private int _animIDFreeFall;
         private int _animIDMotionSpeed;
+        public int AttackAnimationID;
 
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
@@ -173,6 +174,7 @@ namespace StarterAssets
             _animIDJump = Animator.StringToHash("Jump");
             _animIDFreeFall = Animator.StringToHash("FreeFall");
             _animIDMotionSpeed = Animator.StringToHash("MotionSpeed");
+            AttackAnimationID = Animator.StringToHash("Attack");
         }
 
         private void GroundedCheck()
@@ -276,6 +278,12 @@ namespace StarterAssets
             {
                 _animator.SetFloat(_animIDSpeed, _animationBlend);
                 _animator.SetFloat(_animIDMotionSpeed, inputMagnitude);
+            }
+
+            // check for attack input
+            if (IsCurrentDeviceMouse && Input.GetMouseButtonDown(0))
+            {
+                _animator.SetTrigger(AttackAnimationID);
             }
         }
 
