@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class CubeMove : MonoBehaviour
 {
 
     public float speed = 0.1f;
